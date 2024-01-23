@@ -67,6 +67,12 @@ importers:
         specifier: workspace:^
         version: link:../../pkg/components
 
+  app/game2:
+    dependencies:
+      '@react-games/components':
+        specifier: workspace:^
+        version: link:../../pkg/components
+
   pkg/components: {}
 
 packages:
