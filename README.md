@@ -6,7 +6,7 @@ Monorepo for React games
 - PNPM
 
 ## Technology stack
-- PNPM React + TypeScript + Vite
+- PNPM + React + TypeScript + Vite
 
 ## Instructions
 - install locked deps `pnpm run ci`
