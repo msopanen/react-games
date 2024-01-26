@@ -5,7 +5,7 @@ export interface AppBannerProps {
 }
 
 const AppBanner: FC<AppBannerProps> = ({ appName }) => {
-  return <div>This is app {appName} banner</div>;
+  return <div>This is appx {appName} banner</div>;
 };
 
 export default AppBanner;

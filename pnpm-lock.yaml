@@ -90,7 +90,11 @@ importers:
 
   pkg/components: {}
 
-  svc/game1: {}
+  svc/game1:
+    dependencies:
+      '@react-games/app-game1':
+        specifier: workspace:^
+        version: link:../../app/game1
 
 packages:
 
